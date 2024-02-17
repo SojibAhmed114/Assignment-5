@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-5</title>
+    <link rel="stylesheet" href="style.css">
+    
     <!-- tailwind css and daisy ui link added  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,17 +16,75 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
-<body class="scroll-smooth">
+<body class="raleway">
     <!-- header section  -->
-    <header class="container ">
-        <nav>
-            <h2></h2>
+    <header class="container mx-auto mt-4 ">
+        <!-- nav bar   -->
+        <nav class="flex  flex-col md:flex-row justify-between">
+            <h2 class="font-bold text-4xl">Bus-Ticket</h2>
+            <div>
+                <ul class="text-xl flex gap-4">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Destination</li>
+                    <li>Search</li>
+                </ul>
+            </div>
+            <button class="btn btn-success text-green-800 bg-green-100 hover:text-white">Bus <img src="./images/bus-icon.png" alt="bus-icon"> </button>
         </nav>
 
+        <section class="bg-[linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/banner.png')] bg-no-repeat bg-center bg-cover text-center rounded-3xl mt-7 ">
+            <h1 class="text-6xl text-white pt-16 py-6 font-extrabold">End-to-End Travel with </h1>  
+            <p class="text-green-500 text-6xl font-extrabold"> safi Paribahan</p> 
+            <p class="text-white">"Ride into Savings: Secure Your Seat Now with Our Exclusive Bus Ticket Sale!"</p>
+            <p class="text-white">Last Chance to Save! Grab Your Seat: Exclusive Bus Ticket Sale</p>
+            <button  class="btn btn-success bg-[#1DD100] text-black font-bold"> <a href="#ha">Buy Tickets</a> </button>
+            <!-- banner three box design -->
+            <div class="flex justify-center gap-6">
+                <div class=" w-60 h-28  bg-white flex justify-center items-center translate-y-10 rounded-xl border-b-4  border-b-green-600">
+                    <img src="./images/people.png" alt="people">
+                    <div class="pl-4 text-left">
+                        <h2 class="text-3xl">500K+</h2>
+                        <p class="text-black/60">Registered users</p>
+                    </div>
+                </div>
 
+                <div class=" w-60 h-28  bg-white flex justify-center items-center translate-y-10 rounded-xl border-b-4  border-b-green-600">
+                    <img src="./images/ticket-cupon.png" alt="people">
+                    <div class="pl-4 text-left">
+                        <h2 class="text-3xl">1.7 lacks+</h2>
+                        <p class="text-black/60">Tickets sold</p>
+                    </div>
+                </div>
+
+                <div class=" w-60 h-28  bg-white flex justify-center items-center translate-y-10 rounded-xl border-b-4  border-b-green-600">
+                    <img src="./images/stoppage.png" alt="people">
+                    <div class="pl-4 text-left">
+                        <h2 class="text-3xl">1.7 lacks+</h2>
+                        <p class="text-black/60">Tickets sold</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam quo eum rerum, culpa inventore ab doloremque sapiente veritatis nihil quam! Commodi minus asperiores harum laborum ab nemo dicta inventore fuga sunt earum aperiam nihil optio dolores, architecto ut accusamus aut perspiciatis. Voluptatem ex quisquam dolor ullam tenetur ipsa reiciendis!</p>
+      <section id="ha" class="safi-Paribahan">
+        <div class="w-50 h-96 bg-black"></div>
+
+      </section>
 
     </main>
     <footer>
